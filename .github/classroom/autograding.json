@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "WhoAmI",
+      "setup": "",
+      "run": "pytest -q --tb=short -k test_WhoAmI",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "getBondPrice",
+      "setup": "",
+      "run": "pytest -q --tb=short -k test_getBondPrice",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "getDuration",
+      "setup": "",
+      "run": "pytest -q --tb=short -k test_getBondDuration",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "getBondPrice_enumerate",
+      "setup": "",
+      "run": "pytest -q --tb=short -k test_GetBondPriceE",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "getBondPrice_zip",
+      "setup": "",
+      "run": "pytest -q --tb=short -k test_GetBondPriceZ",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "FizzBuzz",
+      "setup": "",
+      "run": "pytest -q --tb=short -k test_FizzBuzz",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
